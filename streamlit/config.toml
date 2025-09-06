@@ -1,0 +1,33 @@
+# Place this file at: .streamlit/config.toml
+
+[theme]
+# Inherit from Streamlit's light base theme (as used by the Anthropic-inspired example)
+base = "light"  # [docs]
+
+# Core brand colors (copy hex values from the example app's Theme editor if adjustments are needed)
+# primaryColor = "#XXXXXX"         # interactive elements (buttons, sliders, checkboxes)
+# backgroundColor = "#XXXXXX"      # main page background
+# secondaryBackgroundColor = "#XXXXXX"  # sidebar/containers background
+# textColor = "#XXXXXX"            # body text color
+# linkColor = "#XXXXXX"            # link color
+
+# Fonts: the example app uses Space Grotesk for headings and Space Mono for code
+font = "sans serif"                # base body font family
+headingFont = "Space Grotesk"      # headings font
+codeFont = "Space Mono"            # code font
+
+# Layout polish (optional — uncomment and adjust as desired)
+# baseFontSize = "16px"            # base font size
+# baseRadius = 8                   # element roundness in px
+# borderColor = "#E5E7EB"          # borders for elements/widgets
+# showWidgetBorder = true          # add subtle borders to inputs
+# codeBackgroundColor = "#F3F4F6"  # background for code blocks
+
+# Sidebar-specific overrides (optional)
+[theme.sidebar]
+# backgroundColor = "#XXXXXX"      # sidebar background
+# textColor = "#XXXXXX"            # sidebar text color
+# linkColor = "#XXXXXX"            # sidebar link color
+# borderColor = "#E5E7EB"          # sidebar border color
+# showSidebarBorder = false        # hide sidebar border for a cleaner look
+
