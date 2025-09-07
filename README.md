@@ -203,7 +203,7 @@ Fluxora was built by a talented team of developers:
 - **Archit Sapra** (2023A7PS0348G)
 - **Hardik Sahu** (2023B2AD0754G)  
 - **Krrish Agrawal** (2023A8PS0830G)
-- **Akshat Lad** (2023B2AD0762G)
+- **Akshat Lad** (2023B2AD0764G)
 
 ## Contributing
 
