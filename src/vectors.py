@@ -36,8 +36,23 @@ def setup_vs(api_key=None, collection_name: str = "docs"):
         persist_directory="./chroma_db"
         )
 
+def clear_collection(store):
+    """Clear all documents using ChromaDB methods only"""
+    try:
+        # Get all documents and delete them
+        all_data = store._collection.get(include=[])
+        if all_data and 'ids' in all_data and all_data['ids']:
+            store._collection.delete(ids=all_data['ids'])
+            print(f"Cleared {len(all_data['ids'])} documents")
+        else:
+            print("Collection already empty")
+    except Exception as e:
+        print(f"Could not clear collection: {e}")
+
+
 def add_documents(store, elements: List[Dict[str, Any]]):
 
+    clear_collection(store)
     docs = []
 
     for element in elements:

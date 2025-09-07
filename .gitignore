@@ -1,5 +1,4 @@
 .DS_Store
-downloads/
 texts/
 *.env
 /learing.md
@@ -18,6 +17,4 @@ mkdir/*
 
 pdfs/
 
-
-downloads/
 

@@ -173,7 +173,7 @@ def main():
         st.session_state.documents_processed = False
     
     # Main title
-    st.title("Fluxora: Yours Learning Wingman")
+    st.title("Fluxora: Your Learning Wingman")
     
     # Create tabs
     tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(["Localizer","Interactive Quiz","PDF Analysis", "Youtube Summary", "Flowchart", "Credits"])
